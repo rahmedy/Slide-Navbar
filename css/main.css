@@ -1,0 +1,10 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: #242831;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+}
+/*# sourceMappingURL=main.css.map */
