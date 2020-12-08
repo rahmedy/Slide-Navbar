@@ -27,34 +27,34 @@ img {
 }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 
 nav {
 	background: rgb(41, 46, 56);
 	border-radius: 0 5em 5em 0;
-    padding: .5em;
-    clip-path: ellipse(50% 50% at -50% 50%);
+	padding: .5em;
+	clip-path: ellipse(50% 50% at -50% 50%);
 }
 
 ul {
-    display: flex;
-    
-    li a {
-        display: block;
-        padding: .5em;
-        margin: 0 .5em;
-        border-radius: 50%;
+	display: flex;
 
-        &:hover{
-            background: rgb(50, 56, 68);
-        }
+	li a {
+		display: block;
+		padding: .5em;
+		margin: 0 .5em;
+		border-radius: 50%;
 
-        img { 
-            opacity: 0;
-            transform: translateX(-10px);
-        }
-    }
+		&:hover {
+			background: rgb(50, 56, 68);
+		}
+
+		img {
+			opacity: 0;
+			transform: translateX(-10px);
+		}
+	}
 }
